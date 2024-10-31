@@ -15,17 +15,17 @@ while True:
             jumlah = int(input("Masukkan jumlah penarikan: "))
 
             if jumlah > saldo:
-                print("Saldo tidak cukup!")
+                print("Saldo tidak cukup!💢")
             elif jumlah <= 0:
-                print("Jumlah penarikan tidak valid!")
+                print("Jumlah penarikan tidak valid!💢")
             else:
                 saldo -= jumlah
-                print("Penarikan berhasil!")
+                print("Penarikan berhasil!✅")
         except ValueError:
             print("Input tidak valid! masukkan angka.")
 
     elif pilihan == '2':
-        print("Terima kasih telah menggunakan ATM!")
+        print("Terima kasih telah menggunakan ATM!😇")
         break
 
     else:
